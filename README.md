@@ -13,7 +13,7 @@ To do so the following algorithm is performed:\
 4- For each comment in test dataset:\
 4.1- For each word in comment find distance of that word with three topics (using word2vec).
     Compute sum for all the words in that comment. This will give one number for each comment. The maximum number specify the label.
-    e.g. Assume comments are in [Phy, Cehm, Bio] and for a comment we have [10 20 5], we conclude that this comment is on Chemistry.\
+    e.g. Assume comments are in [Phy, Cehm, Bio] and for a comment we have [10 20 5], we conclude that this comment is on Chemistry.
     
     
  Accuracy of this algorithm is measured with Rand Index algorihm. For this dataset it was above 90%.
